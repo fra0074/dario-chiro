@@ -1,0 +1,96 @@
+.container-navbar {
+  width: 80%;
+  margin: 0 auto;
+  clear: both;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+nav.fixed-navbar a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+
+nav.fixed-navbar {
+  background: white;
+  height: 110px;
+  line-height: 80px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+  margin-bottom: 30px;
+  align-content: center;
+  
+}
+nav.fixed-navbar.scrollUp {
+  transform: translateY(-80px);
+}
+nav.fixed-navbar ul.navbar-menu {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+nav.fixed-navbar ul.navbar-menu li {
+  display: inline-block;
+  margin: 0 10px;
+}
+nav.fixed-navbar ul.navbar-menu li a {
+  color: black;
+  font-size: calc(0.1rem + 1vw);
+}
+nav.fixed-navbar a#brand {
+  text-transform: uppercase;
+  float: left;
+  font-weight: 800;
+  font-size: 20px;
+}
+nav.fixed-navbar button {
+  background: none;
+  width: 30px;
+  height: 40px;
+  margin-top: 20px;
+  border: none;
+  float: right;
+  display: inline-block;
+  cursor: pointer;
+  display: none;
+}
+nav.fixed-navbar button span {
+  width: 30px;
+  height: 40px;
+  height: 2px;
+  background: #333;
+  display: block;
+  margin: 5px 0;
+}
+
+.btn-book {
+color: white !important;
+background-color: #65C6CA;
+margin-left: 40px;
+padding: 0px 20px 0px 20px;
+border-radius: 4px;
+  
+}
+
+@media (max-width: 1040px) {
+  nav.fixed-navbar ul.navbar-menu {
+    display: none;
+  }
+
+  nav.fixed-navbar button {
+    display: block;
+  }
+}
+
+.logo-navbar-fixed {
+  width: 290px;
+}
+
+#burger {
+  align-self: center;
+  font-size: 25px;
+}
