@@ -1,0 +1,121 @@
+
+.nav-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: baseline;
+  align-content: center;
+  height: 120px;
+}
+
+
+.nav-container .nav-logo{
+
+  align-self: center;
+  margin-right: 3px;
+  border-radius: 5px;
+  img {
+      width: 100px;
+      height: 80px;
+    }
+}
+
+
+.nav-container .nav-item{
+  flex: 0 1 auto;
+  align-self: center;
+
+  a {
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 30px 10px;
+    color: #2d8ccc;
+    font-family: sans-serif;
+  }
+}
+
+.simple-bar{
+  display: grid;
+  grid-template-columns: 155px auto 348px auto 155px;
+  grid-template-rows:  14vh;
+  grid-template-areas:
+    ". text . btn . ";
+
+  justify-content:  start;
+  background-color: #b4d4ec;
+
+
+  // display: flex;
+  // flex-flow: row;
+  // justify-content: space-around;
+  // align-items: center;
+  // align-content: center;
+  // height: 14vh;
+  // background-color: #b4d4ec;
+
+  p {
+    grid-area: text;
+    color: white;
+    align-self: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 5px;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    opacity: .9;
+  }
+
+  a:hover{
+    text-decoration: none;
+    opacity: 1;
+  }
+}
+
+.simple-bar .btn-main-lrg{
+  grid-area: btn;
+  align-self: center;
+}
+
+@media (max-width: 640px){
+
+  .nav-container {
+    height: 240px;
+    justify-content: space-around;
+    align-items: baseline;
+    align-content: center;
+  }
+
+   .nav-container .nav-logo {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      align-items: baseline;
+      align-content: start;
+      flex: 1 0 400px;
+      align-self: center;
+
+        img {
+          width: 80px;
+          height: 60px;
+        }
+    }
+
+    .nav-container .nav-item {
+
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      align-items: baseline;
+      align-content: start;
+      flex: 1 0 400px;
+      align-self: center;
+    }
+
+    }
+
