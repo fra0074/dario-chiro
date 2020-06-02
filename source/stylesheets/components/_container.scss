@@ -1,10 +1,11 @@
 .container-header{
   display: flex;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
   align-content: center;
   background-color: #b4d4ec;
-  height: 8.18em;
+  height: 9em;
 }
 
 .container-header p {
@@ -12,4 +13,30 @@
   color: #333333;
   font-size: 28px;
   font-family: sans-serif;
+}
+
+.line{
+  align-self: center;
+  width: 100px;
+  border-bottom: 4px solid #2d8ccc;
+  border-radius: 5px;
+}
+
+
+.container-header-white{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: white;
+  height: 9em;
+}
+
+.container-header-white p {
+  align-self: center;
+  color: #333333;
+  font-size: 28px;
+  font-family: sans-serif;
+  padding-top: 3.8em;
 }
