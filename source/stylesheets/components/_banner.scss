@@ -4,11 +4,21 @@
   height: 83vh;
   background-position: center;
   padding: 150px 0;
+  position: relative;
+}
+
+.container-banner{
+  position: absolute;
+  top: 150px;
+  left: 170px;
 }
 
 .text {
   width: 450px;
+  height: auto;
 }
+
+
 .banner h1 {
   margin: 0;
 

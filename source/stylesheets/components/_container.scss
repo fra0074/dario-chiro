@@ -1,4 +1,4 @@
-.container-header{
+.container-header-white-blu{
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -6,17 +6,15 @@
   align-content: center;
   background-color: #b4d4ec;
   height: 9em;
-    margin-left: -150px;
-    margin-right: -150px;
-    padding-left: 150px;
-    padding-right: 150px;
+  padding-bottom: 50px;
 }
 
-.container-header p {
+.container-header-white-blu p {
   align-self: center;
   color: #333333;
   font-size: 28px;
   font-family: sans-serif;
+  padding-top: 3.8em;
 }
 
 .line{
@@ -35,6 +33,7 @@
   align-content: center;
   background-color: white;
   height: 9em;
+  padding-bottom: 50px;
 }
 
 .container-header-white p {
@@ -44,3 +43,4 @@
   font-family: sans-serif;
   padding-top: 3.8em;
 }
+

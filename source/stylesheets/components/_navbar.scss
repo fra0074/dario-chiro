@@ -72,17 +72,17 @@
 
 .simple-bar{
   display: grid;
-  grid-template-columns: 155px auto 348px auto 155px;
+  grid-template-columns: 155px auto 218px auto 155px;
   grid-template-rows:  14vh;
   grid-template-areas:
     ". text . btn . ";
 
   justify-content:  start;
   background-color: #b4d4ec;
-      margin-left: -165px;
-    margin-right: -165px;
-    padding-left: 50px;
-    padding-right: 155px;
+    //   margin-left: -165px;
+    // margin-right: -165px;
+    // padding-left: 50px;
+    // padding-right: 155px;
 
 
   p {
@@ -112,7 +112,6 @@
   grid-area: btn;
   align-self: center;
 }
-
 
 
 // @media (max-width: 640px){
