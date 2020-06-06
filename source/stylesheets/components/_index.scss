@@ -1,4 +1,30 @@
 // Import your components CSS files here.
 @import "alert";
 @import "scroll_navbar";
-@import "fixed_navbar"
+@import "fixed_navbar";
+@import "navbar";
+@import "button";
+@import "banner";
+@import "card";
+@import "container";
+@import "footer";
+
+
+h3 {
+  color: #a7b0bd;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Signika',sans-serif;
+}
+
+p {
+  line-height: 30px;
+}
+
+body {
+  background-color: white;
+}

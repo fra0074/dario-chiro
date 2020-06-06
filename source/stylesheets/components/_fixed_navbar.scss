@@ -23,7 +23,7 @@ nav.fixed-navbar {
   transition: all 0.5s;
   margin-bottom: 30px;
   align-content: center;
-  
+
 }
 nav.fixed-navbar.scrollUp {
   transform: translateY(-80px);
@@ -68,12 +68,11 @@ nav.fixed-navbar button span {
 }
 
 .btn-book {
-color: white !important;
-background-color: #65C6CA;
-margin-left: 40px;
-padding: 0px 20px 0px 20px;
-border-radius: 4px;
-  
+  color: white !important;
+  background-color: #65C6CA;
+  margin-left: 40px;
+  padding: 0px 20px 0px 20px;
+  border-radius: 4px;
 }
 
 @media (max-width: 1040px) {

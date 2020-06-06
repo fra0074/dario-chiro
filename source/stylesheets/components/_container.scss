@@ -1,0 +1,194 @@
+.container-header-img{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  background-color: #b4d4ec;
+  height: 12em;
+  padding-bottom: 50px;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(http://demo.devclick.uk/veronica/wp-content/uploads/2017/03/banner3.jpg);
+
+  p{
+    color: white;
+    font-size: 34px;
+    font-weight: 700;
+    padding-left: 160px;
+    padding-top: 40px;
+  }
+
+}
+
+.container-header-white-blu{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: #b4d4ec;
+  height: 9em;
+  padding-bottom: 50px;
+}
+
+.container-header-white-blu p {
+  align-self: center;
+  color: #333333;
+  font-size: 28px;
+  font-family: sans-serif;
+  padding-top: 3.8em;
+}
+
+.line{
+  align-self: center;
+  width: 100px;
+  border-bottom: 4px solid #2d8ccc;
+  border-radius: 5px;
+}
+
+
+.container-header-white{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: white;
+  height: 9em;
+  padding-bottom: 50px;
+}
+
+.container-header-white p {
+  align-self: center;
+  color: #333333;
+  font-size: 28px;
+  font-family: sans-serif;
+  padding-top: 3.8em;
+}
+
+
+
+
+.service-img{
+  margin-bottom: 30px;
+  margin-top: 48px;
+  margin-right: 32px;
+  img{
+  width: 740px;
+  height: 450px;
+
+  }
+}
+
+.service-content{
+      h3{
+        color: #333333;
+        font-size: 24px;
+        margin-bottom: 24px;
+        margin-top: 24px;
+      }
+      p {
+        color: #88919e;
+        font-size: 14px;
+        margin-bottom: 24px;
+      }
+}
+
+.search-container{
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  padding-bottom: 10px;
+    margin-top: 48px;
+  margin-left: 32px;
+}
+
+.search-container .search-box{
+  border: 2px solid #eee;
+  height: 50px;
+  width: 230px;
+  // padding: 24px 0 0 24px;
+
+}
+
+
+
+.side-box-border{
+  padding: 24px 0 24px 24px;
+  border: 2px solid #eee;
+  display: block;
+  margin-top: 42px;
+  margin-bottom: 52px;
+  margin-left: 32px;
+  text-align: left;
+
+
+
+h3{
+  font-size: 18px;
+  color: #263C53;
+  margin-bottom: 12px;
+  padding: 0 0 6px 24px;
+}
+
+ ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li{
+        line-height: 35px;
+
+      a{
+        text-decoration: none;
+        font-size: 14px;
+        color: #88919E;
+        padding: 6px 0 6px 24px;
+      }
+
+      a:hover{
+        text-decoration: none;
+      }
+    }
+}
+
+}
+
+// .container-service {
+//   display: grid;
+//   grid-template-columns: 2fr 1fr;
+//   grid-template-rows: 50px 340px 267px auto;
+//   grid-template-areas:
+//     "img-area search"
+//     "img a"
+//     "b c"
+//     "d .";
+
+
+// }
+
+// .container-service .img-area{
+// grid-area: img-area;
+//       img{
+//       grid-area: img;
+//       width: 754px;
+//       height: 459px;
+//     }
+// }
+// .container-service .search-bar{
+//   grid-area: search;
+// }
+
+//  .container-service .item-a {
+//   grid-area: a;
+// }
+// .container-service .item-b {
+//   grid-area: b;
+// }
+// .container-service .item-c {
+//   grid-area: c;
+// }
+// .container-service .item-d {
+//   grid-area: d;
+// }
+

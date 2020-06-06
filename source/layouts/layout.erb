@@ -1,6 +1,9 @@
 <!doctype html>
 <html>
   <head>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+</style>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport"
@@ -13,8 +16,10 @@
   </head>
   <body>
     <%= partial "navbar" %>
+
     <%= yield %>
 
-
+  <%= partial "footer" %>
   </body>
+
 </html>
