@@ -1,3 +1,23 @@
+.container-header-img{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  background-color: #b4d4ec;
+  height: 12em;
+  padding-bottom: 50px;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(http://demo.devclick.uk/veronica/wp-content/uploads/2017/03/banner3.jpg);
+
+  p{
+    color: white;
+    font-size: 34px;
+    font-weight: 700;
+    padding-left: 160px;
+    padding-top: 40px;
+  }
+
+}
+
 .container-header-white-blu{
   display: flex;
   flex-flow: column;

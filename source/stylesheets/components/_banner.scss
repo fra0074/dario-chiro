@@ -43,3 +43,13 @@
 .banner a:hover {
   text-decoration: none;
 }
+
+
+.banner {
+  background-size: contain;
+  background-size: cover;
+  height: 83vh;
+  background-position: center;
+  padding: 150px 0;
+  position: relative;
+}
