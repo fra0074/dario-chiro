@@ -10,8 +10,27 @@
   padding: 96px 0 48px;
 }
 
+.main-panel-service{
+  width: 1140px;
+  height: 487px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0 48px;
+}
+
+.grid-container{
+  display: flex;
+  flex-flow: nowrap;
+  flex-direction: row;
+}
 
 .main-panel .panel-cell{
+  width: 360px;
+  height: 487px;
+  // margin: 12px;
+}
+
+.main-panel-service .panel-cell{
   width: 360px;
   height: 487px;
   // margin: 12px;
