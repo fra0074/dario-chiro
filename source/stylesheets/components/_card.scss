@@ -4,8 +4,14 @@
 .container-overlay-card {
   position: relative;
   // width: 50%;
-  margin: 20px;
-  box-shadow: 2px gray;
+  // margin: 20px;
+  // box-shadow: 2px gray;
+
+   background: white;                         /* White background */
+  // padding: 20px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 12px;
 }
 
 .overlay-img {
@@ -24,7 +30,15 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #88919e;
+  // background-color: #88919e;
+
+  background: white;                         /* White background */
+  // padding: 20px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  // margin: 12px;
+
+
 }
 
 .container-overlay-card:hover .overlay {
@@ -32,7 +46,7 @@
 }
 
 .overlay-card-text {
-  color: white;
+  color: #333333;
   font-size: 14px;
   position: absolute;
   top: 50%;
