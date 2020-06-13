@@ -13,6 +13,14 @@
     <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag "application" %>
     <%= favicon_tag 'images/favicon.png' %>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+<script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+<link href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css" rel="stylesheet" />
+<!-- <style>
+  body { margin: 0; padding: 0; }
+  #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+</style>
+ -->
   </head>
   <body>
     <%= partial "navbar" %>
@@ -20,6 +28,21 @@
     <%= yield %>
 
   <%= partial "footer" %>
+
+
+  <script>
+  mapboxgl.accessToken = 'pk.eyJ1IjoibWFoc2Eta2giLCJhIjoiY2tiZGYxcDJhMGI0ajJ0b2FubXdvZnEzcSJ9.72173nxCHn7vdUV_9LWDvw';
+    var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: [12.550343, 55.665957],
+        zoom: 8
+    });
+
+    var marker = new mapboxgl.Marker()
+        .setLngLat([12.550343, 55.665957])
+        .addTo(map);
+</script>
   </body>
 
 </html>

@@ -77,6 +77,47 @@
 }
 
 
+.main-container-contact {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: nowrap;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main-container-contact #map {
+  height: 100%;
+  width: 70%;
+  margin: 24px;
+}
+
+.main-container-contact .contact-content {
+  // flex-grow: 1;
+
+  p{
+    margin: 200px 100px 16px 20px;
+
+    color: #969ea9;
+    font-size: 14px;
+    line-height: 26px;
+    align-self: left;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .fab{
+    margin: 8px;
+    font-size: 40px;
+    color: #333333;
+  }
+}
+
+.contact-icon{
+  display: flex;
+  flex-flow: nowrap;
+  margin-left: 40px;
+}
+
 // ########################################################################################################
 .container-header-img{
   display: flex;
